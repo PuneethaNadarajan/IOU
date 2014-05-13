@@ -1,0 +1,169 @@
+a:link
+{
+text-decoration:none;
+}
+a:visited
+{
+color:royalblue;
+}
+a:hover
+{
+text-decoration:underline;
+color:red;
+font-size:28px;
+}
+
+a:active{
+color:green;
+}
+.Acc{
+background:white;
+border-style:none;
+width:200px;
+font-size:20px;
+font-style:bold;
+margin-top:10px;
+position:relative;
+cursor:pointer;
+float:right;
+margin-right:0px;
+border-radius:10px;
+
+}
+.reg{
+background:white;
+border-style:none;
+width:200px;
+font-size:20px;
+font-style:bold;
+margin-top:10px;
+position:relative;
+
+float:right;
+margin-right:0px;
+border-radius:10px;
+
+}
+.eve
+{
+background:lavender;
+border-style:none;
+width:150px;
+font-size:20px;
+font-style:bold;
+margin-top:10px;
+position:relative;
+cursor:pointer;
+float:right;
+margin-right:30px;
+border-radius:10px;
+}
+img{
+
+margin-left:-30px;
+}	
+.eve:hover{
+ color:white;
+ background-color:brown;
+ }
+ .Acc:hover{
+ color:white;
+
+ background-color:brown;
+ }
+ body{
+ background:Lavender;
+ }
+ .header{
+z-index:2;
+margin-top:0px;
+margin-left:130px;
+position:relative;
+ }
+ .h1{
+ text-shadow:3px 3px 5px brown;
+ color:blue;
+ text-decoration:underline;
+ font-size:50px;
+ 
+ }
+ .slogan{
+ margin-top:-30px;
+ margin-left:145px;
+ position:relative;
+ }
+ #event{
+ z-index:3;
+ width:320px;
+ height:auto;
+ float:right;
+ position:fixed;
+ border-radius:8px;
+ margin-top:-400px;
+ margin-right:0px;
+ }
+ .eventh1{
+ color:red;
+ margin-left:50px;
+ }
+ .footer{
+ color:black;
+ margin-top:0px;
+ position:relative;
+ float:left;width:1250px;
+ }
+ .wrapper{
+ height:auto;
+ width:100%;
+ margin-top:-30px;
+ }
+ .logo{
+ margin-left:60px;
+ position:relative;
+ float:left;
+ }
+.coding{
+border-radius:15px;
+height:480px;
+width:500px;
+display:none;
+background-color:white;
+box-shadow:3px 3px 5px brown;
+z-index:5;
+margin-left:500px;
+margin-top:-500px;
+position:relative;
+}
+.debugging,.ITQuiz{
+border-radius:15px;
+height:480px;
+width:500px;
+display:none;
+background-color:white;
+box-shadow:3px 3px 5px brown;
+z-index:5;
+margin-left:500px;
+margin-top:-500px;
+position:relative;
+}
+.langame{
+border-radius:15px;
+height:480px;
+width:500px;
+display:none;
+background-color:white;
+box-shadow:3px 3px 5px brown;
+z-index:5;
+margin-left:500px;
+margin-top:-500px;
+position:relative;
+overflow-y:scroll;
+}
+@media screen
+{
+.body
+{
+position:fixed;
+overflow:hidden;
+}
+}

@@ -1,0 +1,29 @@
+$(document).ready(function(){
+  $("#cod").click(function(){
+    $(".coding").show(),
+	$(".langame").hide(),
+	$(".debugging").hide()
+	
+     });
+});
+$(document).ready(function(){
+  $("#lgame").click(function(){
+    $(".coding").hide(),
+	$(".langame").show(),
+	$(".debugging").hide()
+     });
+});
+$(document).ready(function(){
+  $("#debug").click(function(){
+    $(".coding").hide(),
+	$(".langame").hide(),
+	$(".debugging").show()
+     });
+});
+$(document).ready(function(){
+  $(".foot,.slider,.head").click(function(){
+    $(".coding").hide(),
+	$(".langame").hide(),
+	$(".debugging").hide()
+     });
+});
